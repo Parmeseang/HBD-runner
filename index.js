@@ -3,6 +3,14 @@ function oc() {
     for (var i = 0; i < elements.length; i++) {
       elements[i].classList.remove("off");
       elements[i].classList.add("on");
+      elements[i].classList.remove("off");
+      elements[i].classList.add("on");
+      elements[i].classList.remove("off");
+      elements[i].classList.add("on");
+      elements[i].classList.remove("off");
+      elements[i].classList.add("on");
+      elements[i].classList.remove("off");
+      elements[i].classList.add("on");
     }
   }
 
